@@ -56,6 +56,391 @@
           "No one"
         ],
         "correct": 1
+      },
+      {
+        "id": 6,
+        "question": "What is a key feature of federalism?",
+        "options": [
+          "Only one level of government",
+          "Sub-units are subordinate to central government",
+          "Constitutionally guaranteed powers for different levels",
+          "Central government controls all powers"
+        ],
+        "correct": 2
+      },
+      {
+        "id": 7,
+        "question": "Which of the following is NOT a feature of federalism?",
+        "options": [
+          "Multiple levels of government",
+          "Jurisdictions specified in constitution",
+          "Central government can unilaterally change constitution",
+          "Courts interpret constitution"
+        ],
+        "correct": 2
+      },
+      {
+        "id": 8,
+        "question": "What is the role of courts in a federal system?",
+        "options": [
+          "To make laws",
+          "To interpret constitution and resolve disputes",
+          "To control state governments",
+          "To control central government"
+        ],
+        "correct": 1
+      },
+      {
+        "id": 9,
+        "question": "Which of the following countries is an example of a 'coming together' federation?",
+        "options": [
+          "India",
+          "USA",
+          "Spain",
+          "Belgium"
+        ],
+        "correct": 1
+      },
+      {
+        "id": 10,
+        "question": "Which of the following countries is an example of a 'holding together' federation?",
+        "options": [
+          "Switzerland",
+          "Australia",
+          "India",
+          "USA"
+        ],
+        "correct": 2
+      },
+      {
+        "id": 11,
+        "question": "What is the main objective of federalism?",
+        "options": [
+          "To centralize power",
+          "To promote unity and accommodate diversity",
+          "To weaken regional governments",
+          "To eliminate state governments"
+        ],
+        "correct": 1
+      },
+      {
+        "id": 12,
+        "question": "In a federal system, who has financial autonomy?",
+        "options": [
+          "Only central government",
+          "Only state governments",
+          "Both levels of government",
+          "No one"
+        ],
+        "correct": 2
+      },
+      {
+        "id": 13,
+        "question": "What is the power balance like in 'coming together' federations?",
+        "options": [
+          "Central government is stronger",
+          "States have equal power and are strong",
+          "States have no power",
+          "Central government controls all"
+        ],
+        "correct": 1
+      },
+      {
+        "id": 14,
+        "question": "What is the power balance like in 'holding together' federations?",
+        "options": [
+          "Central government is stronger",
+          "States have equal power",
+          "States control central government",
+          "No central government"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 15,
+        "question": "Which country is an exception to the rule that most large countries are federations?",
+        "options": [
+          "India",
+          "Sri Lanka",
+          "USA",
+          "Belgium"
+        ],
+        "correct": 1
+      },
+      {
+        "id": 16,
+        "question": "What is the constitutional status of regional governments in Belgium after 1993?",
+        "options": [
+          "Dependent on central government",
+          "Constitutionally guaranteed powers",
+          "No powers",
+          "Controlled by central government"
+        ],
+        "correct": 1
+      },
+      {
+        "id": 17,
+        "question": "What do Tamil leaders want for Sri Lanka?",
+        "options": [
+          "To remain unitary",
+          "To become federal",
+          "To become a monarchy",
+          "To become a dictatorship"
+        ],
+        "correct": 1
+      },
+      {
+        "id": 18,
+        "question": "What is the role of the highest court in a federal system?",
+        "options": [
+          "To make laws",
+          "To act as umpire in disputes",
+          "To control central government",
+          "To control state governments"
+        ],
+        "correct": 1
+      },
+      {
+        "id": 19,
+        "question": "What is the significance of mutual trust in federalism?",
+        "options": [
+          "It is not important",
+          "It helps governments abide by power-sharing agreements",
+          "It weakens federalism",
+          "It centralizes power"
+        ],
+        "correct": 1
+      },
+      {
+        "id": 20,
+        "question": "Which of the following is a feature of federalism?",
+        "options": [
+          "Only one level of government",
+          "Sub-units are subordinate",
+          "Dual objectives of unity and diversity",
+          "Central government controls all"
+        ],
+        "correct": 2
+      },
+      {
+        "id": 21,
+        "question": "What is the jurisdiction of different levels of government in a federation?",
+        "options": [
+          "Same for all levels",
+          "Specified in constitution",
+          "Decided by central government",
+          "No jurisdiction"
+        ],
+        "correct": 1
+      },
+      {
+        "id": 22,
+        "question": "What is the source of revenue for each level of government in a federation?",
+        "options": [
+          "Central government only",
+          "State governments only",
+          "Clearly specified for financial autonomy",
+          "No revenue"
+        ],
+        "correct": 2
+      },
+      {
+        "id": 23,
+        "question": "Which of the following countries is NOT a federation?",
+        "options": [
+          "Canada",
+          "USA",
+          "Sri Lanka",
+          "Australia"
+        ],
+        "correct": 2
+      },
+      {
+        "id": 24,
+        "question": "What is the main difference between unitary and federal systems?",
+        "options": [
+          "Unitary has multiple levels of government",
+          "Federal has one level",
+          "Unitary has centralized power, federal divides power",
+          "No difference"
+        ],
+        "correct": 2
+      },
+      {
+        "id": 25,
+        "question": "What is the role of regional governments in a federal system?",
+        "options": [
+          "Subordinate to central government",
+          "Independent powers",
+          "No role",
+          "Controlled by central government"
+        ],
+        "correct": 1
+      },
+      {
+        "id": 26,
+        "question": "Which country is an example of a federation with unequal powers among states?",
+        "options": [
+          "USA",
+          "India",
+          "Switzerland",
+          "Australia"
+        ],
+        "correct": 1
+      },
+      {
+        "id": 27,
+        "question": "What is the role of the constitution in a federal system?",
+        "options": [
+          "Specifies jurisdictions and powers",
+          "No role",
+          "Controlled by central government",
+          "Controlled by states"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 28,
+        "question": "What is the significance of the 1993 constitutional change in Belgium?",
+        "options": [
+          "Reduced power of regional governments",
+          "Increased power of central government",
+          "Gave constitutional powers to regional governments",
+          "Abolished regional governments"
+        ],
+        "correct": 2
+      },
+      {
+        "id": 29,
+        "question": "What is the relationship between central and state governments in a federal system?",
+        "options": [
+          "Central government controls states",
+          "States control central government",
+          "Both have independent powers",
+          "No relationship"
+        ],
+        "correct": 2
+      },
+      {
+        "id": 30,
+        "question": "What is the main feature of a unitary system?",
+        "options": [
+          "Multiple levels of government",
+          "Sub-units subordinate to central government",
+          "Independent state governments",
+          "Dual objectives"
+        ],
+        "correct": 1
+      },
+      {
+        "id": 31,
+        "question": "Which of the following countries is a federation?",
+        "options": [
+          "Sri Lanka",
+          "Belgium",
+          "None",
+          "All"
+        ],
+        "correct": 1
+      },
+      {
+        "id": 32,
+        "question": "What is the main reason for forming federations through 'coming together'?",
+        "options": [
+          "To increase security by pooling sovereignty",
+          "To weaken states",
+          "To centralize power",
+          "To eliminate states"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 33,
+        "question": "What is the main reason for forming federations through 'holding together'?",
+        "options": [
+          "Large country dividing power",
+          "Small countries uniting",
+          "No reason",
+          "To eliminate states"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 34,
+        "question": "Which of the following is a characteristic of federalism?",
+        "options": [
+          "Unilateral constitutional changes",
+          "Mutual trust and agreement",
+          "Central government controls states",
+          "No courts"
+        ],
+        "correct": 1
+      },
+      {
+        "id": 35,
+        "question": "What is the role of financial autonomy in federalism?",
+        "options": [
+          "Ensures independence of governments",
+          "No role",
+          "Central government controls finances",
+          "States control finances only"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 36,
+        "question": "What is the role of the central government in a federal system?",
+        "options": [
+          "Controls all powers",
+          "Shares power with states",
+          "No power",
+          "Controls states"
+        ],
+        "correct": 1
+      },
+      {
+        "id": 37,
+        "question": "What is the significance of the constitution in federalism?",
+        "options": [
+          "Guarantees existence and authority of governments",
+          "No significance",
+          "Controlled by central government",
+          "Controlled by states"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 38,
+        "question": "What is the role of the state governments in a federal system?",
+        "options": [
+          "Subordinate to central government",
+          "Independent powers",
+          "No role",
+          "Controlled by central government"
+        ],
+        "correct": 1
+      },
+      {
+        "id": 39,
+        "question": "What is the role of the central government in 'holding together' federations?",
+        "options": [
+          "More powerful than states",
+          "Less powerful than states",
+          "Equal power",
+          "No power"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 40,
+        "question": "What is the role of the state governments in 'holding together' federations?",
+        "options": [
+          "Equal power",
+          "Less power than central government",
+          "More power than central government",
+          "No power"
+        ],
+        "correct": 1
       }
     ]
   },
