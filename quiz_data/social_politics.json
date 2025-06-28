@@ -1,0 +1,89 @@
+{
+  "social_politics_1_5": {
+    "title": "Social Politics - Pages 1-5",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is federalism?",
+        "options": [
+          "A system where power is centralized",
+          "A system where power is divided between central and state governments",
+          "A system with only one level of government",
+          "A system where states have no power"
+        ],
+        "correct": 1
+      },
+      {
+        "id": 2,
+        "question": "What type of government does India have?",
+        "options": [
+          "Union",
+          "Federal",
+          "Central",
+          "Unitary"
+        ],
+        "correct": 1
+      },
+      {
+        "id": 3,
+        "question": "How many levels of government are there in a federation?",
+        "options": [
+          "One",
+          "Two or more",
+          "Only central",
+          "Only state"
+        ],
+        "correct": 1
+      },
+      {
+        "id": 4,
+        "question": "Which country shifted from a unitary to a federal system in 1993?",
+        "options": [
+          "Sri Lanka",
+          "Belgium",
+          "India",
+          "USA"
+        ],
+        "correct": 1
+      },
+      {
+        "id": 5,
+        "question": "In a federal system, the state government is answerable to whom?",
+        "options": [
+          "Central government",
+          "People",
+          "Both central government and people",
+          "No one"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  "social_politics_6_10": {
+    "title": "Social Politics - Pages 6-10",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What are the dual objectives of federalism?",
+        "options": [
+          "Unity and diversity",
+          "Power and control",
+          "Central and local",
+          "Federal and state"
+        ],
+        "correct": 0
+      },
+      {
+        "id": 2,
+        "question": "Which type of federation is India?",
+        "options": [
+          "Coming together",
+          "Holding together",
+          "Mixed federation",
+          "Unitary federation"
+        ],
+        "correct": 1
+      }
+    ]
+  }
+}

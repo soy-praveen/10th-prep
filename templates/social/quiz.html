@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+
+{% block title %}{{ quiz.title }}{% endblock %}
+
+{% block styles %}
+{{ super() }}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/quiz.css') }}">
+{% endblock %}
+
+{% block content %}
+<div class="quiz-container">
+    <div class="quiz-header">
+        <h1>{{ quiz.title }}</h1>
+        <div class="quiz-timer">
+            <i class="fas fa-clock"></i>
+            <span id="timer">10:00</span>
+        </div>
+    </div>
+
+    <div class="quiz-content" id="quiz-content">
+        <div class="progress-bar">
+            <div class="progress-fill" id="progress-fill"></div>
+        </div>
+
+        <div class="question-container" id="question-container">
+            <!-- Questions will be loaded here by JavaScript -->
+        </div>
+
+        <div class="quiz-navigation">
+            <button id="prev-btn" class="nav-btn" disabled>
+                <i class="fas fa-chevron-left"></i> Previous
+            </button>
+            <div class="question-counter">
+                <span id="current-question">1</span> of <span id="total-questions">{{ quiz.questions|length }}</span>
+            </div>
+            <button id="next-btn" class="nav-btn">
+                Next <i class="fas fa-chevron-right"></i>
+            </button>
+            <button id="submit-btn" class="submit-btn" style="display: none;">
+                Submit Quiz
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="results-modal" id="results-modal" style="display: none;">
+    <div class="modal-content">
+        <div class="results-header">
+            <h2>Quiz Results</h2>
+            <div class="score-display">
+                <div class="score-circle">
+                    <span id="score-percentage">0%</span>
+                </div>
+                <p>You scored <span id="score-text">0 out of 0</span></p>
+            </div>
+        </div>
+        <div class="results-details" id="results-details">
+            <!-- Results will be populated here -->
+        </div>
+        <div class="results-actions">
+            <button onclick="location.href='/social/politics'" class="btn btn-primary">
+                Back to Politics
+            </button>
+            <button onclick="location.reload()" class="btn btn-outline-primary">
+                Retake Quiz
+            </button>
+        </div>
+    </div>
+</div>
+
+<script>
+// Pass quiz data to JavaScript safely
+const quizData = {{ quiz | tojson | safe }};
+const pageRange = "{{ page_range }}";
+const subject = "social";
+const lesson = "politics";
+</script>
+{% endblock %}
+
+{% block scripts %}
+{{ super() }}
+<script src="{{ url_for('static', filename='js/quiz.js') }}"></script>
+{% endblock %}

@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block title %}Social Politics{% endblock %}
+
+{% block styles %}
+{{ super() }}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/social.css') }}">
+{% endblock %}
+
+{% block content %}
+<div class="subject-header">
+    <div class="container">
+        <h1><i class="fas fa-landmark"></i> Politics</h1>
+        <p>Test your knowledge of political systems and governance</p>
+    </div>
+</div>
+
+<div class="quiz-sections">
+    <div class="container">
+        <div class="sections-grid">
+            <div class="section-card available" onclick="location.href='/social/politics/quiz/1-5'">
+                <div class="section-number">1</div>
+                <h3>Pages 1-5</h3>
+                <p>Federalism and Government Systems</p>
+                <div class="section-info">
+                    <span><i class="fas fa-question-circle"></i> 5 Questions</span>
+                    <span><i class="fas fa-clock"></i> 10 mins</span>
+                </div>
+                <div class="section-status available">Start Quiz</div>
+            </div>
+
+            <div class="section-card available" onclick="location.href='/social/politics/quiz/6-10'">
+                <div class="section-number">2</div>
+                <h3>Pages 6-10</h3>
+                <p>Coming Soon</p>
+                <div class="section-info">
+                    <span><i class="fas fa-question-circle"></i> 5 Questions</span>
+                    <span><i class="fas fa-clock"></i> 10 mins</span>
+                </div>
+                <div class="section-status construction">Under Construction</div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+{{ super() }}
+<script src="{{ url_for('static', filename='js/social.js') }}"></script>
+{% endblock %}

@@ -1,0 +1,123 @@
+.subject-header {
+    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+    color: white;
+    padding: 6rem 0 4rem;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.subject-header h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.subject-header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+.lessons-section, .quiz-sections {
+    padding: 5rem 0;
+    background: var(--gray-50);
+}
+
+.lessons-grid, .sections-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.lesson-card, .section-card {
+    background: var(--secondary-color);
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--gray-200);
+    transition: var(--transition-normal);
+    cursor: pointer;
+    position: relative;
+}
+
+.lesson-card:hover, .section-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.lesson-card.under-construction, .section-card.under-construction {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.lesson-icon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.section-number {
+    width: 40px;
+    height: 40px;
+    background: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.lesson-card h3, .section-card h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--gray-800);
+    margin-bottom: 0.5rem;
+}
+
+.lesson-card p, .section-card p {
+    color: var(--gray-600);
+    margin-bottom: 1rem;
+}
+
+.section-info {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.section-info span {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--gray-500);
+    font-size: 0.9rem;
+}
+
+.lesson-status, .section-status {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.lesson-status.available, .section-status.available {
+    background: rgba(52, 168, 83, 0.1);
+    color: var(--success-color);
+}
+
+.lesson-status.construction, .section-status.construction {
+    background: rgba(251, 188, 4, 0.1);
+    color: var(--warning-color);
+}
